@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.app {
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  overscroll-behavior: none;
+  /*scrollbar-width: none;*/
+}
+.minify {
+  max-width: 0 !important;
+  border: 0 !important;
+}
+.app .header {
+  height: 100%;
+  max-width: 100%;
+  background-color: brown;
+  transition: max-width 0.5s linear;
+}
+.app .header div {
+  height: 100%;
+  width: 70vw;
+  display: block;
+  transform-origin: center left;
+}
+.app .header div p {
+  height: 100%;
+  display: block;
+  transform-origin: center left;
+}
+.app .container {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+.app .commonComponent {
+  height: 100%;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.app .commonComponent .title:nth-child(1) {
+  left: 0;
+  z-index: 10;
+  float: left;
+}
+.app .commonComponent .content:nth-child(2) div {
+  background-color: aquamarine;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app .commonComponent .content:nth-child(4) div {
+  background-color: tomato;
+}
+
+.app .commonComponent .content:nth-child(6) div {
+  background-color: yellow;
+}
+
+.app .commonComponent .content:nth-child(8) div {
+  background-color: cyan;
+}
+
+.app .commonComponent .activeHeader {
+  left: 0;
+  z-index: 10;
+}
+
+.app .commonComponent .right {
+  z-index: 10;
+  right: calc(100px * var(--title-id));
+}
+
+.app .commonComponent .title {
+  height: 100%;
+  width: auto;
+  position: sticky;
+  transition: all 0.5s linear;
+  opacity: 1;
+  max-width: 100%;
+  overflow: hidden;
+  transition: right 0.5s; /* Specify the transition property you want to animate */
+  transition: left 0.5s; /* Specify the transition property you want to animate */
+}
+.app .commonComponent .title div {
+  width: 100px;
+  height: 100%;
+}
+.app .commonComponent .content {
+  height: 100%;
+  z-index: 1;
+  max-width: 0;
+  overflow-x: hidden;
+  transition: max-width 0.5s linear;
+}
+.app .commonComponent .content div {
+  width: 150vw;
+  height: 100%;
+  display: block;
+}
+.app .commonComponent .active {
+  max-width: 100%;
 }
