@@ -1,3 +1,26 @@
+html.lenis {
+  display: table;
+}
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
 .app {
   height: 100vh;
   display: flex;
@@ -7,10 +30,6 @@
   white-space: nowrap;
   overscroll-behavior: none;
   /*scrollbar-width: none;*/
-}
-.minify {
-  max-width: 0 !important;
-  border: 0 !important;
 }
 .app .header {
   height: 100%;
@@ -37,69 +56,15 @@
 
 .app .commonComponent {
   height: 100%;
-  width: auto;
+  width: fit-content;
   display: flex;
   flex-direction: row;
   position: relative;
 }
-.app .commonComponent .title:nth-child(1) {
-  left: 0;
-  z-index: 10;
-  float: left;
-}
-.app .commonComponent .content:nth-child(2) div {
-  background-color: aquamarine;
-}
 
-.app .commonComponent .content:nth-child(4) div {
-  background-color: tomato;
-}
-
-.app .commonComponent .content:nth-child(6) div {
-  background-color: yellow;
-}
-
-.app .commonComponent .content:nth-child(8) div {
-  background-color: cyan;
-}
-
-.app .commonComponent .activeHeader {
-  left: 0;
-  z-index: 10;
-}
-
-.app .commonComponent .right {
-  z-index: 10;
-  right: calc(100px * var(--title-id));
-}
-
-.app .commonComponent .title {
-  height: 100%;
-  width: auto;
-  position: sticky;
-  transition: all 0.5s linear;
-  opacity: 1;
-  max-width: 100%;
-  overflow: hidden;
-  transition: right 0.5s; /* Specify the transition property you want to animate */
-  transition: left 0.5s; /* Specify the transition property you want to animate */
-}
-.app .commonComponent .title div {
-  width: 100px;
-  height: 100%;
-}
 .app .commonComponent .content {
   height: 100%;
   z-index: 1;
-  max-width: 0;
   overflow-x: hidden;
   transition: max-width 0.5s linear;
-}
-.app .commonComponent .content div {
-  width: 150vw;
-  height: 100%;
-  display: block;
-}
-.app .commonComponent .active {
-  max-width: 100%;
 }
