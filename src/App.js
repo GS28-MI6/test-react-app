@@ -13,9 +13,12 @@ function App() {
   const [activeTitleState, setActiveTitleState] = useState(0);
   const { contextSafe } = useGSAP();
   const appRef = useRef(null);
+  const headerRef = useRef(null);
   const sliderRef = useRef(null);
   const activeSliderRef = useRef(null);
   const mainCtxRef = useRef(null);
+  const subCtxRef = useRef(null);
+  const revertCtxRef = useRef(null);
   const sliderAnimationRef = useRef(null);
   const isScrollingUserBased = useRef(true);
   const isActiveTitle = useRef(0);
@@ -79,24 +82,33 @@ function App() {
       return;
     }
     mainCtxRef.current.revert();
-
+    subCtxRef.current.revert();
+    subCtxRef.current = gsap.context(() => {
+      const wrappers = gsap.utils.toArray(".sliderWrapper");
+      for (let i = 0; i < wrappers.length; i++) {
+        const state = defineState(i);
+        if (state === "active") {
+          gsap.fromTo(
+            wrappers[i],
+            {
+              xPercent: 100,
+            },
+            { xPercent: 0, duration: 1, ease: "power1.inOut" }
+          );
+        }
+      }
+    });
     mainCtxRef.current = gsap.context(() => {
       const wrappers = gsap.utils.toArray(".positionalWrapper");
       for (let i = 0; i < wrappers.length; i++) {
         const state = defineState(i);
-        gsap.to(".test", {
-          backgroundColor: "yellow",
-          duration: 3,
-        });
-        console.log(wrappers[i]);
-
         if (state === "right") {
-          gsap.to(wrappers[i], {
+          gsap.set(wrappers[i], {
             xPercent: 100,
           });
         }
         if (state === "minify") {
-          gsap.to(wrappers[i], {
+          gsap.set(wrappers[i], {
             xPercent: 100,
           });
         }
@@ -108,8 +120,9 @@ function App() {
       trigger.kill();
     });
     setTimeout(() => {
+      subCtxRef.current.revert();
       defineScrollers();
-    }, 300);
+    }, 1000);
   });
 
   const defineScrollers = contextSafe(() => {
@@ -128,7 +141,8 @@ function App() {
           pinSpacing: false,
           pin: ".title",
           start: "left left",
-          end: "+=1000",
+          end: () =>
+            "+=" + (definePositionalWrapperWidth(selectedWrapper) - 100),
           scrub: 1,
           markers: true,
         },
@@ -182,20 +196,55 @@ function App() {
     [activeSliderRef.current]
   );
 
-  const handleEndScroll = () => {
-    isScrollingUserBased.current = false;
-    isActiveTitle.current = isActiveTitle.current + 1;
-    setActiveTitleState((prev) => prev + 1);
-    setTimeout(() => {
-      lenis.scrollTo(0, {
-        lock: true,
-        duration: 0.5,
-        onComplete: () => {
-          isScrollingUserBased.current = true;
-          reorderSlides();
-        },
+  const animateScrollTease = contextSafe(() => {
+    subCtxRef.current = gsap.context(() => {
+      const wrappers = gsap.utils.toArray(".sliderWrapper");
+      const selectedWrapper = wrappers[isActiveTitle.current + 1];
+      console.log(selectedWrapper);
+      gsap.to(selectedWrapper, {
+        xPercent: -20,
+        duration: 1,
+        ease: "power1.inOut",
       });
-    }, 500);
+    });
+  });
+
+  const returnFromScrollTease = contextSafe(() => {
+    revertCtxRef.current = gsap.context(() => {
+      const wrappers = gsap.utils.toArray(".sliderWrapper");
+      const selectedWrapper = wrappers[isActiveTitle.current + 1];
+      console.log(selectedWrapper);
+      gsap.to(selectedWrapper, {
+        xPercent: 0,
+        duration: 0.2,
+      });
+    });
+    setTimeout(() => {
+      revertCtxRef.current.revert();
+      subCtxRef.current.revert();
+    }, 200);
+  });
+
+  const handleEndScroll = () => {
+    animateScrollTease();
+    isScrollingUserBased.current = false;
+    const finalScroll = lenis.targetScroll;
+
+    setTimeout(() => {
+      if (lenis.targetScroll >= finalScroll) {
+        isActiveTitle.current = isActiveTitle.current + 1;
+        setActiveTitleState((prev) => prev + 1);
+        isScrollingUserBased.current = true;
+        reorderSlides();
+        lenis.scrollTo(headerRef.current.clientWidth, {
+          lock: true,
+          duration: 2,
+        });
+      } else {
+        isScrollingUserBased.current = true;
+        returnFromScrollTease();
+      }
+    }, 1500);
   };
 
   useGSAP(() => {
@@ -241,10 +290,6 @@ function App() {
     }
   }, []);
 
-  useGSAP(() => {
-    console.log("isActiveTitleLayoutEffect");
-  }, [activeTitleState]);
-
   const titleHover = (id, type) => {
     console.log(isActiveTitle.current);
     if (id === isActiveTitle.current || isActiveTitle.current === null) {
@@ -276,54 +321,11 @@ function App() {
       }}
     >
       <div className="app" ref={appRef}>
-        <div className="header">
+        <div className="header" ref={headerRef}>
           <div>
             <p>header</p>
           </div>
         </div>
-        {/*
-        <div className="commonComponent">
-          <div className={title1Classname} style={{ backgroundColor: "red" }}>
-            <div />
-          </div>
-          <div
-            className={
-              isActiveContent === 0 ? "content active" : "content minify"
-            }
-            ref={isActiveContent === 0 ? activeSliderRef : null}
-          >
-            <div style={{ backgroundColor: "aquamarine" }} />
-          </div>
-          <div
-            className={title2Classname}
-            style={{ "--title-id": 1, backgroundColor: "blue" }}
-          >
-            <div />
-          </div>
-          <div
-            className={
-              isActiveContent === 1 ? "content active" : "content minify"
-            }
-            ref={isActiveContent === 1 ? activeSliderRef : null}
-          >
-            <div style={{ backgroundColor: "yellow" }} />
-          </div>
-          <div
-            className={title3Classname}
-            style={{ "--title-id": 0, backgroundColor: "green" }}
-          >
-            <div />
-          </div>
-          <div
-            className={
-              isActiveContent === 2 ? "content active" : "content minify"
-            }
-            ref={isActiveContent === 2 ? activeSliderRef : null}
-          >
-            <div style={{ backgroundColor: "cyan" }} />
-          </div>
-        </div>
-        */}
         <div className="commonComponent" ref={sliderRef}>
           <MovieSlider
             state={defineState(0)}
