@@ -1,7 +1,8 @@
 html.lenis {
   display: table;
 }
-html.lenis, html.lenis body {
+html.lenis,
+html.lenis body {
   height: auto;
 }
 
@@ -23,6 +24,7 @@ html.lenis, html.lenis body {
 
 .app {
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: row;
   overflow-y: hidden;
@@ -33,21 +35,21 @@ html.lenis, html.lenis body {
 }
 .app .header {
   height: 100%;
-  max-width: 100%;
+  width: 100%;
   background-color: brown;
-  transition: max-width 0.5s linear;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5rem;
 }
-.app .header div {
-  height: 100%;
-  width: 70vw;
+.app .header .imagen {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  object-position: center;
   display: block;
-  transform-origin: center left;
 }
-.app .header div p {
-  height: 100%;
-  display: block;
-  transform-origin: center left;
-}
+
 .app .container {
   height: 100%;
   display: flex;
