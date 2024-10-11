@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@gsap/react": "^2.1.0",
+    "@react-pdf/renderer": "^3.4.4",
     "@studio-freight/lenis": "^1.0.42",
     "@studio-freight/react-lenis": "^0.0.46",
     "@testing-library/jest-dom": "^5.17.0",

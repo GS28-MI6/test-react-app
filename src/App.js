@@ -12,36 +12,13 @@ import GuardianesDeLaGalaxia from "./assets/guardianesDeLaGalaxia.jpg";
 import ReadyPlayerOne from "./assets/readyPlayerOne.webp";
 import TheProdigy from "./assets/theProdigy.jpg";
 import { horizontalLoop } from "./helpers/horizontal-loop";
+import SamplePDF from "./componenets/SamplePDF/SamplePDF";
+import { PDFDownloadLink } from "@react-pdf/renderer";
+import { PDFViewer } from "@react-pdf/renderer";
 
 gsap.registerPlugin(ScrollTrigger, useGSAP, Observer);
 
 function App() {
-  const { contextSafe } = useGSAP();
-
-  useGSAP(() => {
-    const loop = horizontalLoop(".imagen", {
-      repeat: -1,
-    });
-    let slow = gsap.to(loop, { timeScale: 0, duration: 0.5 });
-    // make the loop stopped initially.
-    loop.timeScale(0);
-
-    // now use an Observer to listen to pointer/touch/wheel events and set the timeScale of the infinite looping timeline accordingly.
-    Observer.create({
-      target: ".header",
-      type: "pointer,touch,wheel",
-      wheelSpeed: -0.1,
-      onChange: (self) => {
-        loop.timeScale(
-          Math.abs(self.deltaX) > Math.abs(self.deltaY)
-            ? -self.deltaX
-            : -self.deltaY
-        ); // whichever direction is bigger
-        slow.invalidate().restart(); // now decelerate
-      },
-    });
-  });
-
   return (
     <ReactLenis
       root
@@ -51,14 +28,14 @@ function App() {
         smoothWheel: true,
       }}
     >
-      <div className="app">
-        <div className="header">
-          <img src={Ronin} alt="ronin" className="imagen imagen1" />
-          <img src={GuardianesDeLaGalaxia} alt="ronin" className="imagen imagen2" />
-          <img src={ReadyPlayerOne} alt="ronin" className="imagen imagen3" />
-          <img src={TheProdigy} alt="ronin" className="imagen imagen4" />
-        </div>
-      </div>
+      <PDFDownloadLink document={<SamplePDF />} fileName="somename.pdf">
+        {({ blob, url, loading, error }) =>
+          loading ? "Loading document..." : "Download now!"
+        }
+      </PDFDownloadLink>
+      <PDFViewer width={500} height={500}>
+        <SamplePDF />
+      </PDFViewer>
     </ReactLenis>
   );
 }
