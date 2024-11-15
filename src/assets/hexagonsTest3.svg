@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 500 500" width="500px" height="500px" xmlns="http://www.w3.org/2000/svg"
+    xmlnsBx="https://boxy-svg.com">
+    <defs>
+        <bxGrid x="0" y="0" width="71.465" height="70.733" />
+        <bxExport>
+            <bxFile format="svg" path="Sin título.svg" />
+        </bxExport>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="499.854" cy="460.389" r="67.715"
+            id="gradient-0"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <linearGradient id="gradient-1" bxPinned="true" />
+        <radialGradient gradientUnits="userSpaceOnUse" cx="364.499" cy="460.118" r="67.715"
+            id="gradient-2"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(33.333% 70.98% 85.49%)" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="432.254" cy="341.8" r="67.715"
+            id="gradient-3"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="499.967" cy="223.467" r="67.715"
+            id="gradient-4"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(33.333% 70.98% 85.49%)" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="228.798" cy="460.187" r="67.715"
+            id="gradient-5"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(33.333% 70.98% 85.49%)" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="296.659" cy="341.719" r="67.715"
+            id="gradient-6"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="364.477" cy="223.37" r="67.715"
+            id="gradient-7"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="432.21" cy="104.756" r="67.715"
+            id="gradient-8"
+            gradientTransform="matrix(0.466352, 0, 0, 0.438846, 268.515959, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="500.232" cy="-13.74" r="67.715"
+            id="gradient-9"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="93.313" cy="460.179" r="67.715"
+            id="gradient-10"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="161.13" cy="341.601" r="67.715"
+            id="gradient-11"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="228.852" cy="223.108" r="67.715"
+            id="gradient-12"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="296.759" cy="104.419" r="67.715"
+            id="gradient-13"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="364.683" cy="-14.17" r="67.715"
+            id="gradient-14"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="229.191" cy="-14.066" r="67.715"
+            id="gradient-15"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="160.851" cy="104.527" r="67.715"
+            id="gradient-16"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="93.397" cy="223.113" r="67.715"
+            id="gradient-17"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="25.657" cy="341.643" r="67.715"
+            id="gradient-18"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-42.181" cy="460.196" r="67.715"
+            id="gradient-19"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-42.036" cy="223.157" r="67.715"
+            id="gradient-20"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="26.062" cy="104.378" r="67.715"
+            id="gradient-21"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="93.91" cy="-14.344" r="67.715"
+            id="gradient-22"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-41.604" cy="-14.318" r="67.715"
+            id="gradient-23"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.404493, 280.650574)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="499.854" cy="460.389" r="67.715"
+            id="gradient-24"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="364.499" cy="460.118" r="67.715"
+            id="gradient-25"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(33.333% 70.98% 85.49%)" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="432.254" cy="341.8" r="67.715"
+            id="gradient-26"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="499.967" cy="223.467" r="67.715"
+            id="gradient-27"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(33.333% 70.98% 85.49%)" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="432.21" cy="104.756" r="67.715"
+            id="gradient-28"
+            gradientTransform="matrix(0.466352, 0, 0, 0.438846, 1.061174, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="500.232" cy="-13.74" r="67.715"
+            id="gradient-29"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="364.477" cy="223.37" r="67.715"
+            id="gradient-30"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="296.659" cy="341.719" r="67.715"
+            id="gradient-31"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="228.798" cy="460.187" r="67.715"
+            id="gradient-32"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(33.333% 70.98% 85.49%)" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="93.313" cy="460.179" r="67.715"
+            id="gradient-33"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="161.13" cy="341.601" r="67.715"
+            id="gradient-34"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="228.852" cy="223.108" r="67.715"
+            id="gradient-35"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="296.759" cy="104.419" r="67.715"
+            id="gradient-36"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="364.683" cy="-14.17" r="67.715"
+            id="gradient-37"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="229.191" cy="-14.066" r="67.715"
+            id="gradient-38"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-42.181" cy="460.196" r="67.715"
+            id="gradient-39"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="25.657" cy="341.643" r="67.715"
+            id="gradient-40"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="93.397" cy="223.113" r="67.715"
+            id="gradient-41"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="160.851" cy="104.527" r="67.715"
+            id="gradient-42"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="93.91" cy="-14.344" r="67.715"
+            id="gradient-43"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="26.062" cy="104.378" r="67.715"
+            id="gradient-44"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-41.604" cy="-14.318" r="67.715"
+            id="gradient-45"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-42.036" cy="223.157" r="67.715"
+            id="gradient-46"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 12.949694, 228.573236)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="499.854" cy="460.389" r="67.715"
+            id="gradient-47"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.51532, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="364.499" cy="460.118" r="67.715"
+            id="gradient-48"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.51532, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(33.333% 70.98% 85.49%)" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="432.254" cy="341.8" r="67.715"
+            id="gradient-49"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.51532, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="499.967" cy="223.467" r="67.715"
+            id="gradient-50"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.51532, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(33.333% 70.98% 85.49%)" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="432.21" cy="104.756" r="67.715"
+            id="gradient-51"
+            gradientTransform="matrix(0.466352, 0, 0, 0.438846, -28.40384, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="500.232" cy="-13.74" r="67.715"
+            id="gradient-52"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.849635, 488.663681)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="364.477" cy="223.37" r="67.715"
+            id="gradient-53"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.51532, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="296.659" cy="341.719" r="67.715"
+            id="gradient-54"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.51532, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="228.798" cy="460.187" r="67.715"
+            id="gradient-55"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.51532, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(33.333% 70.98% 85.49%)" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="93.313" cy="460.179" r="67.715"
+            id="gradient-56"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.51532, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="161.13" cy="341.601" r="67.715"
+            id="gradient-57"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.51532, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="228.852" cy="223.108" r="67.715"
+            id="gradient-58"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.51532, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="296.759" cy="104.419" r="67.715"
+            id="gradient-59"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.51532, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="364.683" cy="-14.17" r="67.715"
+            id="gradient-60"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.849635, 488.663681)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="229.191" cy="-14.066" r="67.715"
+            id="gradient-61"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.849635, 488.663681)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="25.657" cy="341.643" r="67.715"
+            id="gradient-63"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.51532, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="93.397" cy="223.113" r="67.715"
+            id="gradient-64"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.51532, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="160.851" cy="104.527" r="67.715"
+            id="gradient-65"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.51532, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="93.91" cy="-14.344" r="67.715"
+            id="gradient-66"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.849635, 488.663681)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="26.062" cy="104.378" r="67.715"
+            id="gradient-67"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, -16.51532, -31.604602)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="364.499" cy="460.118" r="67.715"
+            id="gradient-71"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(33.333% 70.98% 85.49%)" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="432.254" cy="341.8" r="67.715"
+            id="gradient-72"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="432.21" cy="104.756" r="67.715"
+            id="gradient-74"
+            gradientTransform="matrix(0.466352, 0, 0, 0.438846, 298.428454, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="364.477" cy="223.37" r="67.715"
+            id="gradient-76"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="296.659" cy="341.719" r="67.715"
+            id="gradient-77"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="228.798" cy="460.187" r="67.715"
+            id="gradient-78"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(33.333% 70.98% 85.49%)" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="93.313" cy="460.179" r="67.715"
+            id="gradient-79"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="161.13" cy="341.601" r="67.715"
+            id="gradient-80"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="228.852" cy="223.108" r="67.715"
+            id="gradient-81"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="296.759" cy="104.419" r="67.715"
+            id="gradient-82"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="364.683" cy="-14.17" r="67.715"
+            id="gradient-83"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="229.191" cy="-14.066" r="67.715"
+            id="gradient-84"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-42.181" cy="460.196" r="67.715"
+            id="gradient-85"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="25.657" cy="341.643" r="67.715"
+            id="gradient-86"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="93.397" cy="223.113" r="67.715"
+            id="gradient-87"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="160.851" cy="104.527" r="67.715"
+            id="gradient-88"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="93.91" cy="-14.344" r="67.715"
+            id="gradient-89"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="26.062" cy="104.378" r="67.715"
+            id="gradient-90"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-41.604" cy="-14.318" r="67.715"
+            id="gradient-91"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-42.036" cy="223.157" r="67.715"
+            id="gradient-92"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 310.316943, 20.406563)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-42.036" cy="223.157" r="67.715"
+            id="gradient-93"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 280.810981, 72.480399)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-42.036" cy="223.157" r="67.715"
+            id="gradient-94"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 251.179093, 20.450658)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-42.036" cy="223.157" r="67.715"
+            id="gradient-95"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 281.055836, -31.650874)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+        <radialGradient gradientUnits="userSpaceOnUse" cx="-42.036" cy="223.157" r="67.715"
+            id="gradient-96"
+            gradientTransform="matrix(0.438846, 0, 0, 0.438846, 251.040727, -83.813495)">
+            <stop offset="0" style="stop-color: rgb(85, 181, 218);" />
+            <stop offset="1" style="stop-color: rgb(63, 146, 198);" />
+        </radialGradient>
+    </defs>
+    <rect width="219.423" height="219.423" style="fill: rgba(216, 216, 216, 0);" x="280.516"
+        y="278.514" />
+    <g id="hexGroup1">
+        <path
+            d="M 499.763 448.003 L 529.48 465.347 L 529.48 500.034 L 499.763 517.377 L 470.046 500.034 L 470.046 465.347 Z"
+            style="stroke: rgb(0, 0, 0); paint-order: fill; fill: url('#gradient-0');"
+            class="hexRow1" bxShape="n-gon 499.763 482.69 34.314 34.687 6 0 1@f39e90c6" />
+    </g>
+    <g id="hexGroup2">
+        <path
+            d="M 440.363 447.884 L 470.08 465.228 L 470.08 499.915 L 440.363 517.258 L 410.646 499.915 L 410.646 465.228 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-2');"
+            bxShape="n-gon 440.363 482.571 34.314 34.687 6 0 1@c1100a52" />
+        <path
+            d="M 470.097 395.961 L 499.814 413.305 L 499.814 447.992 L 470.097 465.335 L 440.38 447.992 L 440.38 413.305 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-3');"
+            bxShape="n-gon 470.097 430.648 34.314 34.687 6 0 1@71d4f2c7" />
+        <path
+            d="M 499.813 344.031 L 529.53 361.375 L 529.53 396.062 L 499.813 413.405 L 470.096 396.062 L 470.096 361.375 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-4');"
+            bxShape="n-gon 499.813 378.718 34.314 34.687 6 0 1@7ab759d0" />
+    </g>
+    <g id="hexGroup3">
+        <path
+            d="M 470.078 291.935 L 499.795 309.279 L 499.795 343.966 L 470.078 361.309 L 440.361 343.966 L 440.361 309.279 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-8');"
+            bxShape="n-gon 470.078 326.622 34.314 34.687 6 0 1@c9e79236" />
+        <path
+            d="M 499.929 239.934 L 529.646 257.277 L 529.646 291.965 L 499.929 309.308 L 470.212 291.965 L 470.212 257.277 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-9');"
+            bxShape="n-gon 499.929 274.621 34.314 34.687 6 0 1@bf7a8117" />
+        <path
+            d="M 440.353 343.989 L 470.07 361.333 L 470.07 396.02 L 440.353 413.363 L 410.636 396.02 L 410.636 361.333 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-7');"
+            bxShape="n-gon 440.353 378.676 34.314 34.687 6 0 1@cf97b7ba" />
+        <path
+            d="M 410.592 395.925 L 440.309 413.269 L 440.309 447.956 L 410.592 465.299 L 380.875 447.956 L 380.875 413.269 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-6');"
+            bxShape="n-gon 410.592 430.612 34.314 34.687 6 0 1@70cecf43" />
+        <path
+            d="M 380.811 447.915 L 410.528 465.258 L 410.528 499.946 L 380.811 517.289 L 351.094 499.946 L 351.094 465.258 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-5');"
+            bxShape="n-gon 380.811 482.602 34.314 34.687 6 0 1@7b285cb3" />
+    </g>
+    <g id="hexGroup4">
+        <path
+            d="M 321.354 447.911 L 351.071 465.255 L 351.071 499.942 L 321.354 517.285 L 291.637 499.942 L 291.637 465.255 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-10');"
+            bxShape="n-gon 321.354 482.598 34.314 34.687 6 0 1@80e99036" />
+        <path
+            d="M 351.116 395.874 L 380.833 413.218 L 380.833 447.905 L 351.116 465.248 L 321.399 447.905 L 321.399 413.218 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-11');"
+            bxShape="n-gon 351.116 430.561 34.314 34.687 6 0 1@a20d8a2d" />
+        <path
+            d="M 380.835 343.874 L 410.552 361.218 L 410.552 395.905 L 380.835 413.248 L 351.118 395.905 L 351.118 361.218 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-12');"
+            bxShape="n-gon 380.835 378.561 34.314 34.687 6 0 1@6a6aebd4" />
+        <path
+            d="M 410.636 291.787 L 440.353 309.131 L 440.353 343.818 L 410.636 361.161 L 380.919 343.818 L 380.919 309.131 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-13');"
+            bxShape="n-gon 410.636 326.474 34.314 34.687 6 0 1@5b56115a" />
+        <path
+            d="M 440.444 239.745 L 470.161 257.089 L 470.161 291.776 L 440.444 309.119 L 410.727 291.776 L 410.727 257.089 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-14');"
+            bxShape="n-gon 440.444 274.432 34.314 34.687 6 0 1@eec4fa27" />
+        <path
+            d="M 470.276 187.639 L 499.993 204.983 L 499.993 239.669 L 470.276 257.013 L 440.559 239.67 L 440.559 204.983 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-71');"
+            bxShape="n-gon 470.276 222.326 34.314 34.687 6 0 1@e3807085" />
+        <path
+            d="M 500.01 135.716 L 529.727 153.06 L 529.727 187.746 L 500.01 205.09 L 470.293 187.747 L 470.293 153.06 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-72');"
+            bxShape="n-gon 500.01 170.403 34.314 34.687 6 0 1@5c76fe01" />
+    </g>
+    <g id="hexGroup5">
+        <path
+            d="M 380.984 239.791 L 410.701 257.135 L 410.701 291.822 L 380.984 309.165 L 351.267 291.822 L 351.267 257.135 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-15');"
+            bxShape="n-gon 380.984 274.478 34.314 34.687 6 0 1@94b13005" />
+        <path
+            d="M 261.893 447.919 L 291.61 465.263 L 291.61 499.95 L 261.893 517.293 L 232.176 499.95 L 232.176 465.263 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-19');"
+            bxShape="n-gon 261.893 482.606 34.314 34.687 6 0 1@40006dd0" />
+        <path
+            d="M 291.664 395.892 L 321.381 413.236 L 321.381 447.923 L 291.664 465.266 L 261.947 447.923 L 261.947 413.236 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-18');"
+            bxShape="n-gon 291.664 430.579 34.314 34.687 6 0 1@007bcbbf" />
+        <path
+            d="M 321.391 343.876 L 351.108 361.22 L 351.108 395.907 L 321.391 413.25 L 291.674 395.907 L 291.674 361.22 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-17');"
+            bxShape="n-gon 321.391 378.563 34.314 34.687 6 0 1@3e838725" />
+        <path
+            d="M 350.993 291.835 L 380.71 309.179 L 380.71 343.866 L 350.993 361.209 L 321.276 343.866 L 321.276 309.179 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-16');"
+            bxShape="n-gon 350.993 326.522 34.314 34.687 6 0 1@49113e4c" />
+        <path
+            d="M 499.991 31.69 L 529.708 49.034 L 529.708 83.72 L 499.991 101.064 L 470.274 83.721 L 470.274 49.033 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-74');"
+            bxShape="n-gon 499.991 66.377 34.314 34.687 6 0 1@80018511" />
+        <path
+            d="M 470.266 83.744 L 499.983 101.088 L 499.983 135.775 L 470.266 153.118 L 440.549 135.775 L 440.549 101.087 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-76');"
+            bxShape="n-gon 470.266 118.431 34.314 34.687 6 0 1@2d55dcc5" />
+        <path
+            d="M 440.505 135.68 L 470.222 153.023 L 470.222 187.71 L 440.505 205.054 L 410.788 187.711 L 410.788 153.023 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-77');"
+            bxShape="n-gon 440.505 170.367 34.314 34.687 6 0 1@5b43ac5c" />
+        <path
+            d="M 410.724 187.67 L 440.441 205.014 L 440.441 239.7 L 410.724 257.044 L 381.007 239.701 L 381.007 205.014 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-78');"
+            bxShape="n-gon 410.724 222.357 34.314 34.687 6 0 1@56bbdefd" />
+    </g>
+    <rect width="219.423" height="219.423" style="fill: rgba(216, 216, 216, 0);" x="13.061"
+        y="226.436" />
+    <g id="hexGroup10">
+        <path
+            d="M 113.529 187.713 L 143.246 205.057 L 143.246 239.743 L 113.529 257.087 L 83.812 239.744 L 83.812 205.057 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-38');"
+            bxShape="n-gon 113.529 222.4 34.314 34.687 6 0 1@eece2110" />
+        <path
+            d="M -5.562 395.841 L 24.155 413.185 L 24.155 447.872 L -5.562 465.215 L -35.279 447.872 L -35.279 413.185 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-39');"
+            bxShape="n-gon -5.562 430.528 34.314 34.687 6 0 1@209fa1c4" />
+        <path
+            d="M 24.209 343.814 L 53.926 361.157 L 53.926 395.845 L 24.209 413.188 L -5.508 395.845 L -5.508 361.157 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-40');"
+            bxShape="n-gon 24.209 378.501 34.314 34.687 6 0 1@516bf0a7" />
+        <path
+            d="M 53.936 291.798 L 83.653 309.142 L 83.653 343.829 L 53.936 361.172 L 24.219 343.829 L 24.219 309.142 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-41');"
+            bxShape="n-gon 53.936 326.485 34.314 34.687 6 0 1@955675a0" />
+        <path
+            d="M 83.538 239.757 L 113.255 257.101 L 113.255 291.788 L 83.538 309.131 L 53.821 291.788 L 53.821 257.101 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-42');"
+            bxShape="n-gon 83.538 274.444 34.314 34.687 6 0 1@28fd4a88" />
+        <path
+            d="M 143.443 135.629 L 173.16 152.973 L 173.16 187.659 L 143.443 205.003 L 113.726 187.66 L 113.726 152.973 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-48');"
+            bxShape="n-gon 143.443 170.316 34.314 34.687 6 0 1@4e5757c1" />
+        <path
+            d="M 173.177 83.706 L 202.894 101.05 L 202.894 135.736 L 173.177 153.08 L 143.46 135.737 L 143.46 101.05 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-49');"
+            bxShape="n-gon 173.177 118.393 34.314 34.687 6 0 1@0ebae49f" />
+        <path
+            d="M 202.893 31.776 L 232.61 49.119 L 232.61 83.806 L 202.893 101.15 L 173.176 83.807 L 173.176 49.119 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-50');"
+            bxShape="n-gon 202.893 66.463 34.314 34.687 6 0 1@8039f318" />
+        <path
+            d="M 232.594 -20.57 L 262.311 -3.226 L 262.311 31.46 L 232.594 48.804 L 202.877 31.461 L 202.877 -3.227 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-96');"
+            bxShape="n-gon 232.594 14.117 34.314 34.687 6 0 1@e9437e68" />
+    </g>
+    <g id="hexGroup12">
+        <path
+            d="M -5.308 187.602 L 24.409 204.945 L 24.409 239.633 L -5.308 256.976 L -35.025 239.633 L -35.025 204.945 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-45');"
+            bxShape="n-gon -5.308 222.289 34.314 34.687 6 0 1@12f05c6f" />
+        <path
+            d="M 24.434 135.656 L 54.151 152.999 L 54.151 187.686 L 24.434 205.03 L -5.283 187.687 L -5.283 152.999 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-56');"
+            bxShape="n-gon 24.434 170.343 34.314 34.687 6 0 1@4946443c" />
+        <path
+            d="M 54.196 83.619 L 83.913 100.963 L 83.913 135.65 L 54.196 152.993 L 24.479 135.65 L 24.479 100.962 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-57');"
+            bxShape="n-gon 54.196 118.306 34.314 34.687 6 0 1@8dca14a5" />
+        <path
+            d="M 83.915 31.619 L 113.632 48.963 L 113.632 83.649 L 83.915 100.993 L 54.198 83.65 L 54.198 48.962 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-58');"
+            bxShape="n-gon 83.915 66.306 34.314 34.687 6 0 1@c12ab350" />
+        <path
+            d="M 113.716 -20.468 L 143.433 -3.124 L 143.433 31.562 L 113.716 48.906 L 83.999 31.563 L 83.999 -3.125 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-59');"
+            bxShape="n-gon 113.716 14.219 34.314 34.687 6 0 1@e7018ab0" />
+    </g>
+    <g id="hexGroup11">
+        <path
+            d="M 54.161 187.591 L 83.878 204.935 L 83.878 239.621 L 54.161 256.965 L 24.444 239.622 L 24.444 204.935 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-43');"
+            bxShape="n-gon 54.161 222.278 34.314 34.687 6 0 1@3295bc19" />
+        <path
+            d="M 24.387 239.691 L 54.104 257.034 L 54.104 291.722 L 24.387 309.065 L -5.33 291.722 L -5.33 257.034 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-44');"
+            bxShape="n-gon 24.387 274.378 34.314 34.687 6 0 1@30aa6004" />
+        <path
+            d="M -5.498 291.817 L 24.219 309.161 L 24.219 343.848 L -5.498 361.191 L -35.215 343.848 L -35.215 309.161 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-46');"
+            bxShape="n-gon -5.498 326.504 34.314 34.687 6 0 1@9d5e09f4" />
+        <path
+            d="M 173.158 -20.32 L 202.875 -2.976 L 202.875 31.71 L 173.158 49.054 L 143.441 31.711 L 143.441 -2.977 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-51');"
+            bxShape="n-gon 173.158 14.367 34.314 34.687 6 0 1@833091c8" />
+        <path
+            d="M 143.433 31.734 L 173.15 49.078 L 173.15 83.765 L 143.433 101.108 L 113.716 83.765 L 113.716 49.078 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-53');"
+            bxShape="n-gon 143.433 66.421 34.314 34.687 6 0 1@5509c622" />
+        <path
+            d="M 113.672 83.67 L 143.389 101.014 L 143.389 135.7 L 113.672 153.044 L 83.955 135.701 L 83.955 101.014 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-54');"
+            bxShape="n-gon 113.672 118.357 34.314 34.687 6 0 1@850a6189" />
+        <path
+            d="M 83.891 135.66 L 113.608 153.004 L 113.608 187.691 L 83.891 205.034 L 54.174 187.691 L 54.174 153.004 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-55');"
+            bxShape="n-gon 83.891 170.347 34.314 34.687 6 0 1@b90e5c84" />
+    </g>
+    <rect width="219.423" height="219.423" style="fill: rgba(216, 216, 216, 0);" x="-16.404"
+        y="-33.741" />
+    <g id="hexGroup6">
+        <path
+            d="M 321.616 239.669 L 351.333 257.013 L 351.333 291.7 L 321.616 309.043 L 291.899 291.7 L 291.899 257.013 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-22');"
+            bxShape="n-gon 321.616 274.356 34.314 34.687 6 0 1@ab8a1d2c" />
+        <path
+            d="M 291.842 291.769 L 321.559 309.113 L 321.559 343.8 L 291.842 361.143 L 262.125 343.8 L 262.125 309.113 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-21');"
+            bxShape="n-gon 291.842 326.456 34.314 34.687 6 0 1@81688f9e" />
+        <path
+            d="M 261.957 343.895 L 291.674 361.239 L 291.674 395.926 L 261.957 413.269 L 232.24 395.926 L 232.24 361.239 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-20');"
+            bxShape="n-gon 261.957 378.582 34.314 34.687 6 0 1@538f7ea8" />
+        <path
+            d="M 232.308 395.925 L 262.025 413.269 L 262.025 447.956 L 232.308 465.299 L 202.591 447.956 L 202.591 413.269 Z"
+            style="stroke: rgb(0, 0, 0); paint-order: fill; fill: url('#gradient-24');"
+            class="hexRow1" bxShape="n-gon 232.308 430.612 34.314 34.687 6 0 1@c25d8474" />
+        <path
+            d="M 202.675 447.947 L 232.392 465.291 L 232.392 499.978 L 202.675 517.321 L 172.958 499.978 L 172.958 465.291 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-52');"
+            bxShape="n-gon 202.675 482.634 34.314 34.687 6 0 1@dfa402e1" />
+        <path
+            d="M 351.267 187.666 L 380.984 205.01 L 380.984 239.697 L 351.267 257.04 L 321.55 239.697 L 321.55 205.01 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-79');"
+            bxShape="n-gon 351.267 222.353 34.314 34.687 6 0 1@d459e91b" />
+        <path
+            d="M 381.029 135.629 L 410.746 152.973 L 410.746 187.659 L 381.029 205.003 L 351.312 187.66 L 351.312 152.973 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-80');"
+            bxShape="n-gon 381.029 170.316 34.314 34.687 6 0 1@64bba741" />
+        <path
+            d="M 410.748 83.629 L 440.465 100.973 L 440.465 135.659 L 410.748 153.003 L 381.031 135.66 L 381.031 100.973 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-81');"
+            bxShape="n-gon 410.748 118.316 34.314 34.687 6 0 1@a7bd0a58" />
+        <path
+            d="M 440.549 31.542 L 470.266 48.886 L 470.266 83.572 L 440.549 100.916 L 410.832 83.573 L 410.832 48.885 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-82');"
+            bxShape="n-gon 440.549 66.229 34.314 34.687 6 0 1@f25d7f89" />
+        <path
+            d="M 470.357 -20.5 L 500.074 -3.156 L 500.074 31.53 L 470.357 48.874 L 440.64 31.531 L 440.64 -3.157 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-83');"
+            bxShape="n-gon 470.357 14.187 34.314 34.687 6 0 1@ab38ff4a" />
+    </g>
+    <g id="hexGroup7">
+        <path
+            d="M 262.147 239.68 L 291.864 257.024 L 291.864 291.711 L 262.147 309.054 L 232.43 291.711 L 232.43 257.024 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-23');"
+            bxShape="n-gon 262.147 274.367 34.314 34.687 6 0 1@579a7632" />
+        <path
+            d="M 172.908 395.806 L 202.625 413.15 L 202.625 447.837 L 172.908 465.18 L 143.191 447.837 L 143.191 413.15 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-25');"
+            bxShape="n-gon 172.908 430.493 34.314 34.687 6 0 1@5d94aaa9" />
+        <path
+            d="M 202.642 343.883 L 232.359 361.227 L 232.359 395.914 L 202.642 413.257 L 172.925 395.914 L 172.925 361.227 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-26');"
+            bxShape="n-gon 202.642 378.57 34.314 34.687 6 0 1@bfc527cb" />
+        <path
+            d="M 232.358 291.953 L 262.075 309.297 L 262.075 343.984 L 232.358 361.327 L 202.641 343.984 L 202.641 309.297 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-27');"
+            bxShape="n-gon 232.358 326.64 34.314 34.687 6 0 1@d275382f" />
+        <path
+            d="M 143.19 447.758 L 172.907 465.102 L 172.907 499.789 L 143.19 517.132 L 113.473 499.789 L 113.473 465.102 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-60');"
+            bxShape="n-gon 143.19 482.445 34.314 34.687 6 0 1@b5a4c387" />
+        <path
+            d="M 380.906 31.59 L 410.623 48.934 L 410.623 83.621 L 380.906 100.964 L 351.189 83.621 L 351.189 48.933 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-88');"
+            bxShape="n-gon 380.906 66.277 34.314 34.687 6 0 1@31eb0a95" />
+        <path
+            d="M 410.897 -20.454 L 440.614 -3.11 L 440.614 31.576 L 410.897 48.92 L 381.18 31.577 L 381.18 -3.111 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-84');"
+            bxShape="n-gon 410.897 14.233 34.314 34.687 6 0 1@ffd7fb6d" />
+        <path
+            d="M 291.806 187.674 L 321.523 205.017 L 321.523 239.705 L 291.806 257.048 L 262.089 239.705 L 262.089 205.017 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-85');"
+            bxShape="n-gon 291.806 222.361 34.314 34.687 6 0 1@db17d479" />
+        <path
+            d="M 321.577 135.647 L 351.294 152.991 L 351.294 187.678 L 321.577 205.021 L 291.86 187.678 L 291.86 152.991 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-86');"
+            bxShape="n-gon 321.577 170.334 34.314 34.687 6 0 1@375145d1" />
+        <path
+            d="M 351.304 83.631 L 381.021 100.975 L 381.021 135.662 L 351.304 153.005 L 321.587 135.662 L 321.587 100.974 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-87');"
+            bxShape="n-gon 351.304 118.318 34.314 34.687 6 0 1@04969574" />
+    </g>
+    <g id="hexGroup8">
+        <path
+            d="M 202.623 239.857 L 232.34 257.2 L 232.34 291.888 L 202.623 309.231 L 172.906 291.888 L 172.906 257.2 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-28');"
+            bxShape="n-gon 202.623 274.544 34.314 34.687 6 0 1@45d911f9" />
+        <path
+            d="M 232.474 187.856 L 262.191 205.2 L 262.191 239.887 L 232.474 257.23 L 202.757 239.887 L 202.757 205.2 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-29');"
+            bxShape="n-gon 232.474 222.543 34.314 34.687 6 0 1@e1e49d46" />
+        <path
+            d="M 172.898 291.911 L 202.615 309.255 L 202.615 343.942 L 172.898 361.285 L 143.181 343.942 L 143.181 309.255 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-30');"
+            bxShape="n-gon 172.898 326.598 34.314 34.687 6 0 1@3b7ba8c0" />
+        <path
+            d="M 143.137 343.847 L 172.854 361.191 L 172.854 395.878 L 143.137 413.221 L 113.42 395.878 L 113.42 361.191 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-31');"
+            bxShape="n-gon 143.137 378.534 34.314 34.687 6 0 1@a8f93fed" />
+        <path
+            d="M 113.356 395.837 L 143.073 413.181 L 143.073 447.868 L 113.356 465.211 L 83.639 447.868 L 83.639 413.181 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-32');"
+            bxShape="n-gon 113.356 430.524 34.314 34.687 6 0 1@2d47857b" />
+        <path
+            d="M 83.73 447.804 L 113.447 465.148 L 113.447 499.835 L 83.73 517.178 L 54.013 499.835 L 54.013 465.148 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-61');"
+            bxShape="n-gon 83.73 482.491 34.314 34.687 6 0 1@1f3555bd" />
+        <path
+            d="M 351.529 -20.576 L 381.246 -3.232 L 381.246 31.454 L 351.529 48.798 L 321.812 31.455 L 321.812 -3.233 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-89');"
+            bxShape="n-gon 351.529 14.111 34.314 34.687 6 0 1@65aa6f28" />
+        <path
+            d="M 321.755 31.524 L 351.472 48.868 L 351.472 83.554 L 321.755 100.898 L 292.038 83.555 L 292.038 48.867 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-90');"
+            bxShape="n-gon 321.755 66.211 34.314 34.687 6 0 1@5a1f032c" />
+        <path
+            d="M 291.87 83.65 L 321.587 100.994 L 321.587 135.681 L 291.87 153.024 L 262.153 135.681 L 262.153 100.994 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-92');"
+            bxShape="n-gon 291.87 118.337 34.314 34.687 6 0 1@ce2427f5" />
+        <path
+            d="M 262.364 135.724 L 292.081 153.068 L 292.081 187.755 L 262.364 205.098 L 232.647 187.755 L 232.647 153.068 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-93');"
+            bxShape="n-gon 262.364 170.411 34.314 34.687 6 0 1@c162d65b" />
+    </g>
+    <g id="hexGroup13">
+        <path
+            d="M -5.256 83.637 L 24.461 100.981 L 24.461 135.668 L -5.256 153.011 L -34.973 135.668 L -34.973 100.98 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-63');"
+            bxShape="n-gon -5.256 118.324 34.314 34.687 6 0 1@88f7b03b" />
+        <path
+            d="M 24.471 31.621 L 54.188 48.965 L 54.188 83.652 L 24.471 100.995 L -5.246 83.652 L -5.246 48.965 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-64');"
+            bxShape="n-gon 24.471 66.308 34.314 34.687 6 0 1@a1ef6a88" />
+        <path
+            d="M 54.073 -20.42 L 83.79 -3.076 L 83.79 31.61 L 54.073 48.954 L 24.356 31.611 L 24.356 -3.077 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-65');"
+            bxShape="n-gon 54.073 14.267 34.314 34.687 6 0 1@1c712376" />
+    </g>
+    <g id="hexGroup9">
+        <path
+            d="M 53.899 395.833 L 83.616 413.177 L 83.616 447.864 L 53.899 465.207 L 24.182 447.864 L 24.182 413.177 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-33');"
+            bxShape="n-gon 53.899 430.52 34.314 34.687 6 0 1@562c45cb" />
+        <path
+            d="M 83.661 343.796 L 113.378 361.14 L 113.378 395.827 L 83.661 413.17 L 53.944 395.827 L 53.944 361.14 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-34');"
+            bxShape="n-gon 83.661 378.483 34.314 34.687 6 0 1@24c81a8d" />
+        <path
+            d="M 113.38 291.796 L 143.097 309.14 L 143.097 343.827 L 113.38 361.17 L 83.663 343.827 L 83.663 309.14 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-35');"
+            bxShape="n-gon 113.38 326.483 34.314 34.687 6 0 1@f065a998" />
+        <path
+            d="M 143.181 239.709 L 172.898 257.053 L 172.898 291.74 L 143.181 309.083 L 113.464 291.74 L 113.464 257.053 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-36');"
+            bxShape="n-gon 143.181 274.396 34.314 34.687 6 0 1@f7aed90c" />
+        <path
+            d="M 172.989 187.667 L 202.706 205.011 L 202.706 239.698 L 172.989 257.041 L 143.272 239.698 L 143.272 205.011 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-37');"
+            bxShape="n-gon 172.989 222.354 34.314 34.687 6 0 1@3ed29afa" />
+        <path
+            d="M 202.843 135.748 L 232.56 153.092 L 232.56 187.779 L 202.843 205.122 L 173.126 187.779 L 173.126 153.092 Z"
+            style="stroke: rgb(0, 0, 0); paint-order: fill; fill: url('#gradient-47');"
+            class="hexRow1" bxShape="n-gon 202.843 170.435 34.314 34.687 6 0 1@d1ac03c5" />
+        <path
+            d="M 24.362 447.682 L 54.079 465.026 L 54.079 499.713 L 24.362 517.056 L -5.355 499.713 L -5.355 465.026 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-66');"
+            bxShape="n-gon 24.362 482.369 34.314 34.687 6 0 1@3b3aedca" />
+        <path
+            d="M 292.06 -20.565 L 321.777 -3.221 L 321.777 31.465 L 292.06 48.809 L 262.343 31.466 L 262.343 -3.222 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-91');"
+            bxShape="n-gon 292.06 14.122 34.314 34.687 6 0 1@bf7e701b" />
+        <path
+            d="M 232.732 83.694 L 262.449 101.038 L 262.449 135.724 L 232.732 153.068 L 203.015 135.725 L 203.015 101.038 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-94');"
+            bxShape="n-gon 232.732 118.381 34.314 34.687 6 0 1@704cc215" />
+        <path
+            d="M 262.609 31.592 L 292.326 48.936 L 292.326 83.622 L 262.609 100.966 L 232.892 83.623 L 232.892 48.935 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-95');"
+            bxShape="n-gon 262.609 66.279 34.314 34.687 6 0 1@16e8a23b" />
+    </g>
+    <g id="hexGroup14">
+        <path
+            d="M -5.078 -20.486 L 24.639 -3.142 L 24.639 31.544 L -5.078 48.888 L -34.795 31.545 L -34.795 -3.143 Z"
+            style="stroke: rgb(0, 0, 0); fill: url('#gradient-67');"
+            bxShape="n-gon -5.078 14.201 34.314 34.687 6 0 1@b47372f0" />
+    </g>
+    <rect width="219.423" height="219.423" style="fill: rgba(216, 216, 216, 0);" x="310.429"
+        y="18.269" />
+</svg>

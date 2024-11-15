@@ -1,42 +1,113 @@
-import React, { useState, useRef, useEffect, useLayoutEffect } from "react";
+import React, { useState } from "react";
 import "./App.css";
-import ReactLenis, { useLenis } from "@studio-freight/react-lenis";
+import ReactLenis from "@studio-freight/react-lenis";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
-import MovieSlider from "./componenets/MovieSlider";
 import { useGSAP } from "@gsap/react";
-import { verticalLoop } from "./helpers/vertical-loop";
 import { Observer } from "gsap/Observer";
-import Ronin from "./assets/47Ronin.jpg";
-import GuardianesDeLaGalaxia from "./assets/guardianesDeLaGalaxia.jpg";
-import ReadyPlayerOne from "./assets/readyPlayerOne.webp";
-import TheProdigy from "./assets/theProdigy.jpg";
-import { horizontalLoop } from "./helpers/horizontal-loop";
-import SamplePDF from "./componenets/SamplePDF/SamplePDF";
-import { PDFDownloadLink } from "@react-pdf/renderer";
-import { PDFViewer } from "@react-pdf/renderer";
+import BGImg from "./assets/bgimg.jfif";
+import logoNode from "./assets/logoNode.png";
+import { ReactComponent as Arrow } from "./assets/Arrow.svg";
+import { ReactComponent as Curtain } from "./assets/curtain.svg";
+import { ReactComponent as Curtain2 } from "./assets/curtain2.svg";
+import { ReactComponent as Curtain3 } from "./assets/curtain3.svg";
+import { ReactComponent as Hexagons } from "./assets/hexagonsTest3.svg";
+import { Route, Routes } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { Hello } from "./pages/Hello";
+import giftCard1 from "./assets/giftCard1.png";
+import giftCard2 from "./assets/giftCard2.png";
+import giftCard3 from "./assets/giftCard3.png";
 
-gsap.registerPlugin(ScrollTrigger, useGSAP, Observer);
+gsap.registerPlugin(ScrollTrigger, useGSAP);
+
+/* receives array of jsx elements I want to sort them by their id */
+
+const giftCardArray = [
+  giftCard1,
+  giftCard2,
+  giftCard3,
+  giftCard1,
+  giftCard2,
+  giftCard3,
+];
+
+const orderArrayById = (arr) => {
+  return arr.sort((a, b) => {
+    const aId = Number(a.id.replace("hexGroup", "")); // remove #hexGroup and leave number
+    const bId = Number(b.id.replace("hexGroup", ""));
+    console.log(aId, bId);
+    if (aId < bId) {
+      return -1;
+    }
+    if (aId > bId) {
+      return 1;
+    }
+    return 0;
+  });
+};
 
 function App() {
+  useGSAP(() => {
+    gsap.to(".navbar", {
+      scrollTrigger: {
+        trigger: ".navbar",
+        start: "top top",
+        markers: true,
+        onEnter: () => {
+          console.log("onEnter");
+          gsap.set(".navbar", { display: "none" });
+          gsap.fromTo(
+            ".navbarMobile",
+            { display: "flex", yPercent: -100 },
+            { yPercent: 0 }
+          );
+        },
+        onLeaveBack: () => {
+          console.log("onLeaveBack");
+          gsap
+            .timeline({})
+            .to(".navbarMobile", { yPercent: -100 })
+            .to(".navbar", { display: "flex" });
+        },
+      },
+    });
+  }, []);
+
   return (
-    <ReactLenis
-      root
-      options={{
-        orientation: "horizontal",
-        gestureOrientataion: "both",
-        smoothWheel: true,
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        width: "100vw",
+        overflow: "hidden",
       }}
     >
-      <PDFDownloadLink document={<SamplePDF />} fileName="somename.pdf">
-        {({ blob, url, loading, error }) =>
-          loading ? "Loading document..." : "Download now!"
-        }
-      </PDFDownloadLink>
-      <PDFViewer width={500} height={500}>
-        <SamplePDF />
-      </PDFViewer>
-    </ReactLenis>
+      <div
+        style={{
+          display: "flex",
+          width: "100vw",
+          height: "50px",
+          backgroundColor: "red",
+        }}
+        className="navbar"
+      />
+      <div
+        style={{
+          display: "none",
+          width: "100vw",
+          height: "50px",
+          backgroundColor: "blue",
+          position: "fixed",
+          top: "0",
+        }}
+        className="navbarMobile"
+      />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/hello" element={<Hello />} />
+      </Routes>
+    </div>
   );
 }
 
