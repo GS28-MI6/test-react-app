@@ -70,3 +70,15 @@ html.lenis body {
   overflow-x: hidden;
   transition: max-width 0.5s linear;
 }
+.body .image-container .gift-card {
+  display: none;
+  z-index: 2;
+}
+.body .active {
+  display: block !important;
+  z-index: 2;
+}
+
+.body .next {
+  z-index: 1;
+}

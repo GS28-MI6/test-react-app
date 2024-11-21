@@ -8,22 +8,20 @@ import giftCard2 from "../assets/Giftcard2.png";
 import giftCard3 from "../assets/Giftcard3.png";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import { Flip } from "gsap/Flip";
 import gsap from "gsap";
 import { horizontalLoop } from "../helpers/horizontal-loop";
 import { horizontalLoopAlter } from "../helpers/horizontal-loop-alter";
+import televisor from "../assets/tvwebsite2.png";
 
-gsap.registerPlugin(ScrollTrigger, useGSAP);
+gsap.registerPlugin(ScrollTrigger, useGSAP, Flip);
 
 /* receives array of jsx elements I want to sort them by their id */
 
 const giftCardArray = [
-  giftCard1,
-  giftCard2,
-  giftCard3,
-  giftCard1,
-  giftCard2,
-  giftCard3,
-  giftCard1,
+  { image: giftCard1, id: "giftCard1" },
+  { image: giftCard2, id: "giftCard2" },
+  { image: giftCard3, id: "giftCard3" },
 ];
 
 export const Home = () => {
@@ -31,39 +29,70 @@ export const Home = () => {
   const activeElement = useRef(null);
   const loopRef = useRef();
   const currentImageIndex = useRef(3);
-  const [currentImageIndex2, setCurrentImageIndex2] = useState(3);
-
-  useGSAP(() => {
-    gsap.context(() => {
-      const images = gsap.utils.toArray(".gift-card");
-      console.log(currentImageIndex2);
-      loopRef.current = horizontalLoopAlter(images, {
-        paused: true,
-        center: true,
-        paddingRight: 80,
-        onChange: (element, index) => {
-          // when the active element changes, this function gets called.
-          activeElement.current &&
-            activeElement.current.classList.remove("active");
-          element.classList.add("active");
-          activeElement.current = element;
-          gsap
-            .timeline({})
-            .to(".gift-card", { scale: 0.7, opacity: 0.5, duration: 0.5 })
-            .to(".active", { scale: 1, opacity: 1, duration: 0.5 }, "<");
-        },
-      });
-    }, imageContainerRef.current);
+  const [giftCards, setGiftCards] = useState({
+    giftCardArray: giftCardArray,
+    state: null,
   });
 
-  const moveImage = (idx) => {
-    currentImageIndex.current = idx;
-    setCurrentImageIndex2(idx);
-    console.log(currentImageIndex2);
-    loopRef.current.toIndex(idx, {
-      duration: 0.5,
-      ease: "power3",
+  useEffect(() => {
+    gsap.set(".active", {
+      scale: 1.2,
+      scrollTrigger: {
+        trigger: ".active",
+        start: "top center",
+        end: "bottom center",
+        scrub: 1,
+        toggleClass: { targets: ".active", className: "active" },
+      },
     });
+  }, []);
+
+  useGSAP(() => {
+    if (!giftCards.state) return;
+    console.log("oldState", giftCards.state);
+    Flip.from(giftCards.state, {
+      absolute: true,
+      scale: true,
+      duration: 1.5,
+      ease: "power3.inOut",
+      onComplete: () => {
+        console.log("done");
+        const newState = Flip.getState(".gift-card");
+        console.log("newState", newState);
+      },
+    });
+  }, [giftCards]);
+
+  const moveImage = (idx, flipId) => {
+    if (idx === 1) {
+      return;
+    }
+    let state = Flip.getState(".gift-card");
+    const currentImage = document.querySelectorAll(".gift-card")[idx];
+    currentImage.classList.add("selected");
+    const auxArray = giftCards.giftCardArray;
+    if (idx === 2) {
+      const firstGiftCard = auxArray.shift();
+      auxArray.push(firstGiftCard);
+    } else {
+      const lastGiftCard = auxArray.pop();
+      auxArray.unshift(lastGiftCard);
+    }
+    setGiftCards({
+      giftCardArray: auxArray,
+      state,
+    });
+  };
+
+  const generateZIndex = (id) => {
+    switch (id) {
+      case 0:
+        return 2;
+      case 1:
+        return 3;
+      case 2:
+        return 1;
+    }
   };
 
   return (
@@ -71,8 +100,8 @@ export const Home = () => {
       <div
         className="body"
         style={{
-          height: "150vh",
-          width: "100%",
+          height: "100vh",
+          width: "100vw",
           backgroundColor: "white",
           display: "flex",
           justifyContent: "center",
@@ -80,28 +109,30 @@ export const Home = () => {
           flexDirection: "column",
         }}
       >
-        <p style={{ fontSize: "5rem", color: "black" }}>Bienvenidos</p>
         <div
           ref={imageContainerRef}
+          className="image-container"
           style={{
             display: "flex",
             flexDirection: "row",
-            width: "75vw",
-            overflow: "hidden",
+            width: "100%",
             alignItems: "center",
             position: "relative",
+            justifyContent: "space-evenly",
+            height: "90%",
           }}
         >
           {giftCardArray.map((giftCard, idx) => (
             <img
-              src={giftCard}
-              className={"gift-card"}
+              src={giftCard.image}
+              className={idx === 1 ? "gift-card active" : "gift-card"}
+              data-flip-id={giftCard.id}
               alt=""
-              onClick={() => moveImage(idx)}
+              onClick={() => moveImage(idx, giftCard.id)}
               style={{
                 display: "flex",
-                height: "100%",
-                width: "500px",
+                height: "70%",
+                width: "auto",
                 margin: 0,
                 padding: 0,
                 position: "relative",
@@ -109,6 +140,7 @@ export const Home = () => {
                 fontSize: "21px",
                 cursor: "pointer",
                 marginRight: 80,
+                zIndex: generateZIndex(idx),
               }}
             />
           ))}
